@@ -3,7 +3,7 @@ import { io } from "socket.io-client";
 import "./App.css";
 
 // Connect to backend
-const socket = io("http://localhost:3000");
+const socket = io("http://vfpjdp1tdt52fh898jsae6ae.178.105.39.91.sslip.io");
 
 function App() {
   const [messages, setMessages] = useState([]);
